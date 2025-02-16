@@ -6,7 +6,7 @@ import { saveAs } from 'file-saver';
 const ButtonDownload = () => {
 
     const handleDownload = () => {
-        const pdfUrl = '/download.pdf';
+        const pdfUrl = '/downloadCV/CV_Frontend.pdf';
         saveAs(pdfUrl, 'downloaded-file.pdf');
       };
 
